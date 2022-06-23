@@ -29,6 +29,7 @@
           background-color:#FFD580 ;
           color: black;
           font-weight: bold;
+          text-decoration: line-through;
         }
 
     </style>
@@ -96,7 +97,7 @@
       alertify.alert('Se ha modificado el estado de la tarea').setHeader('Notificación')
       const btn = document.getElementById("completar");
       if(btn.innerText === "Completar"){
-        btn.innerText = "Desmarcar";
+        btn.innerText = "Completar";
     }else{
         btn.innerText= "Completar";
     }
