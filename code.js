@@ -24,7 +24,9 @@ const mostrar = (articulos) => {
                             <td id="id">${articulo.id}</td>
                             <td>${articulo.tarea}</td>
                             <td>${articulo.prioridad}</td>
-                            <td class=" text-center"><a class="btnEditar btn btn-primary">Editar</a><a class="btnBorrar btn btn-danger">Borrar</a><a onclick = selectedRow() class="btnCompletar btn btn-success">Completar</a></td>
+                            <td class=" text-center"><a class="btnEditar btn btn-primary">Editar</a>
+                            <a class="btnBorrar btn btn-danger">Borrar</a>
+                            <a id = "completar" onclick = selectedRow() class="btnCompletar btn btn-success">Completar</a></td>
                        </tr>
                     `    
     })
